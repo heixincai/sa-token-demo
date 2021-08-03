@@ -1,6 +1,7 @@
 package com.example.satokendemo.controller;
 
 import cn.dev33.satoken.stp.StpUtil;
+import com.example.satokendemo.common.util.ApiResult;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
@@ -26,8 +27,8 @@ public class UserController {
     }
 
     @RequestMapping("getLogin")
-    public String getLogin(String username, String password) throws Exception {
-        throw new Exception("错误");
+    public ApiResult<String> getLogin(String username, String password) throws Exception {
+        return new ApiResult<>("成功！");
     }
 
 }
