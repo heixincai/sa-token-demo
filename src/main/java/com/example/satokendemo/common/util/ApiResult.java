@@ -1,5 +1,6 @@
 package com.example.satokendemo.common.util;
 
+import com.example.satokendemo.common.enums.ResultCode;
 import io.swagger.annotations.ApiModel;
 import io.swagger.annotations.ApiModelProperty;
 import lombok.Getter;

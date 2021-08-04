@@ -3,7 +3,7 @@ package com.example.satokendemo.global;
 import com.example.satokendemo.common.ArgumentInvalid;
 import com.example.satokendemo.common.exception.MyException;
 import com.example.satokendemo.common.util.ApiResult;
-import com.example.satokendemo.common.util.ResultCode;
+import com.example.satokendemo.common.enums.ResultCode;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.dao.DataAccessException;
 import org.springframework.http.HttpStatus;

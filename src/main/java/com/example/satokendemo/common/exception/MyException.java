@@ -1,7 +1,7 @@
 package com.example.satokendemo.common.exception;
 
 
-import com.example.satokendemo.common.util.ResultCode;
+import com.example.satokendemo.common.enums.ResultCode;
 
 public class MyException extends RuntimeException {
     private Integer code;

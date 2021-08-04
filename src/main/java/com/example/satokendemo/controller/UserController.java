@@ -1,6 +1,7 @@
 package com.example.satokendemo.controller;
 
 import cn.dev33.satoken.stp.StpUtil;
+import cn.hutool.crypto.SecureUtil;
 import com.example.satokendemo.common.util.ApiResult;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;

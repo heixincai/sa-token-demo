@@ -1,4 +1,4 @@
-package com.example.satokendemo.common.util;
+package com.example.satokendemo.common.enums;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;
