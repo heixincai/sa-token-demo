@@ -14,8 +14,8 @@ public class UserController {
     public String doLogin(String username, String password) {
         // 此处仅作模拟示例，真实项目需要从数据库中查询数据进行比对
         if("zhang".equals(username) && "123456".equals(password)) {
-            StpUtil.login(10001);
-            return "登录成功";
+            StpUtil.login(10001,"PC");
+            return "登录成功：" + StpUtil.getTokenValue();
         }
         return "登录失败";
     }
